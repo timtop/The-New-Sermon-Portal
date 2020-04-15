@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: GothamRnd;
+}
+@font-face{
+    font-family: GothamRnd;
+    src: url(fonts/GothamRnd-Book.otf);
+}
+body{
+    font-size: 13.5px;
+}
+
+.top_header{
+    background-image: url(assets/web_image.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header_text{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50% , 10%);
+    text-align: center;
+    color: white;
+}
+.brand_color{
+    color: #f8ab08;
+}
+.logo{
+    height:10%;
+    position: absolute;
+    top: 28%;
+    left:50%;
+    transform: translate(-50% , 10%);
+}
+.border_design{
+    border-bottom: 50px;
+    border-color: 10px;
+    padding-bottom: 10px;
+}
+.btn_continue_mobile{
+    display: none;
+}
+.main_web{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.section_header{
+    margin-bottom: 10px;
+}
+.active{
+    color: #f8ab08;
+    border-bottom: 4px solid #f8ab08;
+}
+.nav_web{
+    background-color: #1C1B1B;
+    text-align: center;
+    color: white;
+}
+.nav_web li{
+    display: inline-block;
+    max-width: 100%;
+    padding: 20px;
+    margin-right: 90px;
+}
+.nav_web li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav_web li:hover{
+    background-color: #f8ab08;    
+}
+.sermons_web{
+    /* border: 1px solid #f8ab08; */
+    border-top: none;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0px 6px 20px #00000015;
+    border-radius: 0px 0px 20px 20px;
+    height: 900px;
+}
+.sermon_column{
+    position: relative;
+    margin-top: 20px;
+}
+.sermon_image_1{
+    width: 20%;
+    padding-left: 20px;
+}
+.sermon_title_1{
+    display: inline-block;
+    position: absolute;
+    padding-left: 50px;
+}
+.space-below{
+    margin-bottom: 10px;
+}
+.download_btn{
+    position: absolute;
+    top: 130px;
+    left: 400px;
+}
+.download_btn img{
+    display: inline;
+}
+.download_btn p{
+    display: inline;
+    padding-left: 10px;
+}
+.download_btn a{
+    text-decoration: none;
+
+}
+/* For Tablet View */
+@media (min-width: 768px) and (max-width:1023px){
+    body{
+        font-size: 12px;
+    }
+    .nav_web li{
+        display: inline-block;
+        max-width: 100%;
+        padding: 20px;
+        margin-right: 50px;
+    }
+    .nav_web li:hover{
+        background-color: #1C1B1B;    
+    }    
+    .download_btn {
+        position: absolute;
+        top: 100px;
+        left: 300px;
+    }
+}

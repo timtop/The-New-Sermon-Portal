@@ -1,0 +1,142 @@
+@media (max-width: 425px){
+    .top_header{
+        background-image: url(assets/mobile_image.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .btn_continue_mobile{
+        display: block;
+        position: absolute;
+        top: 80%;
+        left:50%;
+        transform: translate(-50% , 10%);
+        text-align: center;
+        padding: 20px 30px;
+        color: white;
+        background-color: #f8ab08;
+        border-radius: 2px;
+    }
+    .btn_continue_mobile a {
+        text-decoration: none;
+        color: white;
+    }
+    .main_web{
+        display: none;
+    }
+    .sermon_header{
+        background-color: #1C1B1B;
+        color: white;
+        padding: 15px;
+        padding-bottom: 0px;
+    }
+    .nav_mobile{
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    .sermon_header ul li{
+        display: inline-block;
+        font-size: 14px;
+        margin-right: 15px;
+        padding: 10px;
+    }
+    .nav_mobile li a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .active{
+        color: #f8ab08; 
+    }
+    .search_box{
+        position: relative;
+    }
+    .search_box .search_icon{
+        position: absolute;
+        left: 385px;
+    }
+    .search{
+        width: 100%;
+        padding: 10px;
+        background-color: #F4F2F2;
+    }
+    .sermon_column_mobile{
+        font-size: 9px;
+        margin-top: 20px;
+        position: relative;
+        padding-bottom: 20px;
+        /* border-bottom: 2px solid red; */
+    }
+    .space-below{
+        margin-bottom: 3px;
+    }
+    .sermon_title_1{
+        padding-left: 30px;
+    }
+    .download_btn {
+        position: absolute;
+        top: 50px;
+        left: 75%;
+    }
+    .download_btn p {
+        display: inline;
+        padding-left: 4px;
+        color: black;
+    }
+    .top_btn{
+        width: 13%;
+        position: fixed;
+        top: 90%;
+        left: 85%;
+        z-index: 10000;
+    }
+}
+@media (max-width: 410px){
+    .sermon_header ul li{
+        display: inline-block;
+        font-size: 12px;
+        margin-right: 15px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .sermon_header ul li{
+        display: inline-block;
+        font-size: 9px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .search_box .search_icon{
+        position: absolute;
+        left: 270px;
+    }
+    .download_btn {
+        position: absolute;
+        top: 40px;
+        left: 176px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 378px){
+    .sermon_header ul li{
+        display: inline-block;
+        font-size: 9px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .search_box .search_icon{
+        position: absolute;
+        left: 290px;
+    }
+    .sermon_column_mobile {
+        font-size: 9px;
+        margin-top: 20px;
+        position: relative;
+        padding-bottom: 32px;
+        /* border-bottom: 2px solid red; */
+    }
+}
